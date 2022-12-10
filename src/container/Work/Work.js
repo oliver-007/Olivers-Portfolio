@@ -42,23 +42,30 @@ const Work = () => {
         <span>Portfolio</span> Section
       </h2>
       <div className="app__work-filter">
-        {["Web App", "JavaScript", "React Js", "Firebase", "All"].map(
-          (item, index) => {
-            return (
-              <div
-                key={index}
-                onClick={() => {
-                  handleWorkFilter(item);
-                }}
-                className={`app__work-filter-item app__flex p-text ${
-                  activeFilter === item ? "item-active" : ""
-                }`}
-              >
-                {item}
-              </div>
-            );
-          }
-        )}
+        {[
+          "MERN",
+          "React Js",
+          "Tailwind",
+          "Redux Toolkit",
+          "JavaScript",
+          "Firebase",
+          "Vanilla frontend",
+          "All",
+        ].map((item, index) => {
+          return (
+            <div
+              key={index}
+              onClick={() => {
+                handleWorkFilter(item);
+              }}
+              className={`app__work-filter-item app__flex p-text ${
+                activeFilter === item ? "item-active" : ""
+              }`}
+            >
+              {item}
+            </div>
+          );
+        })}
       </div>
       <motion.div
         animate={animateCard}
