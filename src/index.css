@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,500&display=swap");
 
 :root {
-  --font-base: "Courgette", cursive;
+  --font-base: "Raleway", sans-serif;
 
   --primary-color: #edf2f8;
   --secondary-color: #9eb23b;

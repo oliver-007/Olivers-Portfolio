@@ -36,6 +36,7 @@ import circle from "../assets/circle.svg";
 // import spotify from "../assets/spotify.png";
 import logo1 from "../assets/logo1.png";
 import tailwind from "../assets/tailwind.png";
+import nextjs from "../assets/nextjs2.png";
 
 export default {
   email,
@@ -73,4 +74,5 @@ export default {
   // spotify,
   logo1,
   tailwind,
+  nextjs,
 };

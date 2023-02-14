@@ -45,6 +45,7 @@ const Work = () => {
         {[
           "MERN",
           "React Js",
+          "NEXT.js",
           "Tailwind",
           "Redux Toolkit",
           "JavaScript",
