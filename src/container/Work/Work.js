@@ -49,6 +49,8 @@ const Work = () => {
           "Tailwind",
           "Redux Toolkit",
           "JavaScript",
+          "TypeScript",
+          "Prisma",
           "Firebase",
           "Vanilla frontend",
           "All",

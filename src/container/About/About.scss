@@ -6,14 +6,41 @@
 
 .app__profiles {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
+  // flex-wrap: wrap;
   margin-top: 2rem;
+  width: 250px;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: contain;
+
+    @media screen and (min-width: 900px) {
+      width: 400px;
+      height: 500px;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    width: 800px;
+    flex-direction: row;
+  }
+}
+
+.app__profiles-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .app__profile-item {
-  width: 190px;
+  width: 500px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -22,17 +49,17 @@
 
   img {
     width: 100%;
-    height: 170px;
+    height: fit-content;
     border-radius: 15px;
     object-fit: cover;
   }
 
   @media screen and (min-width: 2000px) {
-    width: 370px;
+    width: 770px;
     margin: 2rem 4rem;
 
     img {
-      height: 320px;
+      height: 520px;
     }
   }
 }

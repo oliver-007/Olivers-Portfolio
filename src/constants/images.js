@@ -12,19 +12,20 @@ import javascript from "../assets/javascript.png";
 import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
 // import python from "../assets/python.png";
-import react from "../assets/react.png";
+import react from "../assets/react-2.svg";
 import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
-import typescript from "../assets/typescript.png";
+import typescript from "../assets/typescript.svg";
 // import vue from "../assets/vue.png";
 
-import about01 from "../assets/about01.png";
-import about02 from "../assets/about02.png";
-import about03 from "../assets/about03.png";
-import about04 from "../assets/about04.png";
+import about1 from "../assets/about1.png";
+// import about02 from "../assets/about02.png";
+// import about03 from "../assets/about03.png";
+// import about04 from "../assets/about04.png";
 
-import profile from "../assets/profile.png";
+import profile from "../assets/profile1.png";
 import circle from "../assets/circle.svg";
+import prisma from "../assets/prisma-2.svg";
 // import logo from "../assets/logo.png";
 
 // import adidas from "../assets/adidas.png";
@@ -34,7 +35,7 @@ import circle from "../assets/circle.svg";
 // import nb from "../assets/nb.png";
 // import skype from "../assets/skype.png";
 // import spotify from "../assets/spotify.png";
-import logo1 from "../assets/logo1.png";
+import logo1 from "../assets/logo2.svg";
 import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs2.png";
 
@@ -57,11 +58,12 @@ export default {
   redux,
   sass,
   typescript,
+  prisma,
   // vue,
-  about01,
-  about02,
-  about03,
-  about04,
+  about1,
+  // about02,
+  // about03,
+  // about04,
   profile,
   circle,
   // logo,
