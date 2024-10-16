@@ -5,7 +5,7 @@ const SocialMedia = () => {
     <div className="app__social">
       <div>
         <a
-          href="https://linkedin.com/in/oliver-ahmed-8a366a202"
+          href="https://www.linkedin.com/in/faisal-ahmed-8a366a202/"
           target="_blank"
           rel="noopener noreferrer"
         >
