@@ -52,7 +52,6 @@ const Work = () => {
           "TypeScript",
           "Prisma",
           "Firebase",
-          "Vanilla frontend",
           "All",
         ].map((item, index) => {
           return (
