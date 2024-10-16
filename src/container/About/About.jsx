@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { AppWrapper, MotionWrapper } from "../../wrapper";
 
 import "./About.scss";
-import { urlFor, client } from "../../client";
+import { client } from "../../client";
 import { images } from "../../constants";
 
 const About = () => {
-  const [abouts, setAbouts] = useState([]);
+  const [setAbouts] = useState([]);
 
   useEffect(() => {
     const query = '*[_type == "abouts"]';

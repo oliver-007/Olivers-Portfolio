@@ -54,7 +54,11 @@ const Navbar = () => {
               ].map((item) => {
                 return (
                   <li key={item}>
-                    <a href={item.props.href} target="_blank">
+                    <a
+                      href={item.props.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {item}
                     </a>
                   </li>

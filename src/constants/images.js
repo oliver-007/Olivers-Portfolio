@@ -39,7 +39,7 @@ import logo1 from "../assets/logo2.svg";
 import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs2.png";
 
-export default {
+const images = {
   email,
   mobile,
   // api,
@@ -78,3 +78,5 @@ export default {
   tailwind,
   nextjs,
 };
+
+export default images;

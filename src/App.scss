@@ -153,7 +153,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   padding: 1rem;
 
   .app__navigation-dot {
@@ -174,6 +173,10 @@
       height: 20px;
     }
   }
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (max-width: 500px) {
