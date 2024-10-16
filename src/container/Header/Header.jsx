@@ -27,16 +27,19 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             {/* <span>👋 </span> */}
             <div style={{ margineLeft: 20 }}>
-              <p className="p-text">Hello, this is</p>
+              <p className="p-text">Hi there, myself</p>
               <h3>Faisal Ahmed</h3>
               <h1 className="head-text">
+                <p className="p-text"> You can call me </p>
                 <span style={{ color: "#9eb23b" }}>Oliver</span>
               </h1>
             </div>
           </div>
           <div className="tag-cmp app__flex">
             <p className="p-text">Software Developer </p>
-            <p className="p-text">MERN , NEXT.JS, TypeScript, Prisma</p>
+            <p className="p-text">
+              React || NEXT || TypeScript || Node || MongoDB
+            </p>
           </div>
         </div>
         <motion.div
@@ -76,15 +79,13 @@ const Header = () => {
         whileInView={scaleVarients.whileInView}
         className="app__header-circles"
       >
-        {[images.prisma, images.typescript, images.redux].map(
-          (circle, index) => {
-            return (
-              <div className="circle-cmp app__flex" key={`circle-${index}`}>
-                <img src={circle} alt="profile_bg" />
-              </div>
-            );
-          }
-        )}
+        {[images.node, images.typescript, images.redux].map((circle, index) => {
+          return (
+            <div className="circle-cmp app__flex" key={`circle-${index}`}>
+              <img src={circle} alt="profile_bg" />
+            </div>
+          );
+        })}
       </motion.div>
     </div>
   );
