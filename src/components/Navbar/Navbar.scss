@@ -231,3 +231,38 @@
     }
   }
 }
+
+/* ------------------- Resume Download Button ------------------- */
+.resume__btn {
+  display: flex;
+  align-items: center; // vertically center inside navbar
+  justify-content: center;
+  padding: 6px 16px; // smaller padding to match navbar height
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.85rem; // smaller font to match menu
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-left: 1rem; // spacing from other menu links
+  height: 32px; // match navbar height
+  line-height: 1;
+
+  button {
+    border: none;
+    background: none; /* if you also want transparent background */
+    outline: none;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+}

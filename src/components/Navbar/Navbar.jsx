@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 
 import { images } from "../../constants";
 import "./Navbar.scss";
+// import cv from "../../assets/Faisal_CV_August_2025.pdf";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
@@ -23,6 +25,13 @@ const Navbar = () => {
             </li>
           );
         })}
+        <a
+          href="/Faisal_CV_August_2025.pdf"
+          download="Faisal_Ahmed_Resume.pdf"
+          className="resume__btn"
+        >
+          <button type="button">Download Resume</button>
+        </a>
       </ul>
 
       <div className="app__navbar-menu">
@@ -44,6 +53,13 @@ const Navbar = () => {
                   </li>
                 );
               })}
+              <a
+                href="/Faisal_CV_August_2025.pdf"
+                download="Faisal_Ahmed_Resume.pdf"
+                className="resume__btn"
+              >
+                <button type="button">Download Resume</button>
+              </a>
             </ul>
 
             <ul>

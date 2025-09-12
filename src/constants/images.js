@@ -23,7 +23,7 @@ import about1 from "../assets/about1.png";
 // import about03 from "../assets/about03.png";
 // import about04 from "../assets/about04.png";
 
-import profile from "../assets/profile1.png";
+import profile from "../assets/profile111.png";
 import circle from "../assets/circle.svg";
 import prisma from "../assets/prisma-2.svg";
 // import logo from "../assets/logo.png";
