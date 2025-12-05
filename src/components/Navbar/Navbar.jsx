@@ -25,7 +25,7 @@ const Navbar = () => {
           );
         })}
         <a
-          href="/Faisal_CV_November_2025.pdf"
+          href="/Faisal_CV_Dec_2025.pdf"
           download="Faisal_Ahmed_Oliver_Resume.pdf"
           className="resume__btn"
         >
