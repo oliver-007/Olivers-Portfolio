@@ -25,7 +25,7 @@ const Navbar = () => {
           );
         })}
         <a
-          href="/CV.pdf"
+          href="/Oliver_CV.pdf"
           download="Faisal_Ahmed_Oliver_Resume.pdf"
           className="resume__btn"
         >
